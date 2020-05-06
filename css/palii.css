@@ -48,6 +48,25 @@
 #circle-triangle .circle {
   z-index: 2;
 }
+.circle-triangle-section {
+  position: relative;
+  border: 1px solid black;
+  height: 310px;
+  width: 310px;
+  margin: 0 auto;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 155px 306px 153px;
+  border-color: transparent transparent #007bff transparent;
+  position: absolute;
+  z-index: 3;
+}
+#circle-triangle .circle {
+  z-index: 4;
+}
 .circle-triangle-section-reverse {
   border: 1px solid black;
   height: 310px;
@@ -62,7 +81,6 @@
   border-width: 306px 154px 0 153px;
   border-color: blueviolet transparent transparent transparent;
   position: absolute;
-  z-index: 3;
 }
 #circle-triangle .circle {
   background-color: bisque;
@@ -73,4 +91,7 @@
   height: 310px;
   width: 310px;
   margin: 0 auto;
+}
+#circle-square-triangle .circle {
+z-index: 999;
 }
