@@ -2,14 +2,15 @@
   display: inline-block;
   margin: 0;
   padding: 0;
-
 }
-.square-circle-section {
+
+.section-default {
   position: relative;
   border: 1px solid black;
   height: 310px;
   width: 310px;
-  }
+}
+
 .square {
   border: 1px solid red;
   height: 300px;
@@ -20,6 +21,7 @@
   position: absolute;
   z-index: 1;
 }
+
 .circle {
   border: 1px solid blue;
   height: 300px;
@@ -31,12 +33,7 @@
   border-radius: 50%;
   z-index: 2;
 }
-.circle-triangle-section {
-  position: relative;
-  border: 1px solid black;
-  height: 310px;
-  width: 310px;
-}
+
 .triangle {
   width: 0;
   height: 0;
@@ -47,17 +44,12 @@
   border-color: transparent transparent #007bff transparent;
   position: absolute;
   z-index: 3;
-  
-  }
+}
+
 #circle-triangle .circle {
   z-index: 2;
 }
-.circle-triangle-section-reverse {
-  border: 1px solid black;
-  height: 310px;
-  width: 310px;
-  position: relative;
-}
+
 .triangle-reverse {
   width: 0;
   height: 0;
@@ -69,12 +61,7 @@
   top: 155px;
   left: 5px;
 }
+
 #circle-triangle .circle {
   background-color: bisque;
-}
-.circle-square-triangle-section {
-  position: relative;
-  border: 1px solid black;
-  height: 310px;
-  width: 310px;
 }
