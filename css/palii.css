@@ -1,13 +1,6 @@
 * {
-<<<<<<< HEAD
   margin: 0;
   padding: 0;
-=======
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-
->>>>>>> 8e075c693e108c755817a9771f55e0c6871ad789
 }
  main {
   display: flex;
@@ -56,11 +49,7 @@
   top: 4px;
   left: 5px;
   border-style: solid;
-<<<<<<< HEAD
   border-width: 0 150px 300px 150px;
-=======
-  border-width: 0 150px 150px 150px;
->>>>>>> 8e075c693e108c755817a9771f55e0c6871ad789
   border-color: transparent transparent #007bff transparent;
   position: absolute;
   z-index: 3;
@@ -79,11 +68,7 @@
   width: 0;
   height: 0;
   border-style: solid;
-<<<<<<< HEAD
   border-width: 300px 150px 0 150px;
-=======
-  border-width: 150px 150px 0 150px;
->>>>>>> 8e075c693e108c755817a9771f55e0c6871ad789
   border-color: blueviolet transparent transparent transparent;
   position: absolute;
   z-index: 3;
